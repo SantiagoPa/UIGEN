@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm test:*)",
+      "Bash(npx vitest:*)",
+      "Bash(nvm --version:*)",
+      "Bash(nvm use:*)",
+      "Bash(source ~/.nvm/nvm.sh)",
+      "Bash(mkdir:*)",
+      "Bash(npm audit:*)",
+      "Bash(npm ls:*)",
+      "Bash(cat:*)",
+      "Bash(npm install:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
